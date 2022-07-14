@@ -1,0 +1,2 @@
+let totalEleitores = 1000, votosBrancos = 50, votosNulos = 100, votosValidos = 850
+console.log("O número de votos brancos corresponde a " + votosBrancos /totalEleitores * 100 + "% do total de eleitores\nO número de votos brancos corresponde a " + votosNulos /totalEleitores * 100 + "% do total de eleitores\nO número de votos brancos corresponde a " + votosValidos /totalEleitores * 100 + "% do total de eleitores")
