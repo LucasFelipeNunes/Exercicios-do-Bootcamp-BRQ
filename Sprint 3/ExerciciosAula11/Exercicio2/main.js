@@ -1,2 +1,2 @@
-let array = [10, 14, 20, 9, 16, 22]
-console.log(array.filter(vetor => vetor > 15))
+let V = [1, 4, 7, 1, 2, 1, 4, 25, 3, 7]
+console.log(V.reduce((acumulador, atual) => acumulador + atual)/10)
