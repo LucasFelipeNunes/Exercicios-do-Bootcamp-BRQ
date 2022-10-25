@@ -1,2 +1,2 @@
-let array = [10, 14, 20, 9, 16, 22]
-console.log(array.filter(vetor => vetor > 15))
+let A = [3, 4, 8, 9, 15]
+console.log(A.map(vetor => Math.pow(vetor, 3)))
