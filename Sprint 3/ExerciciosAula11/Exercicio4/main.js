@@ -25,4 +25,4 @@ var filmes = [
     }
 ];
 console.log(`A. Valores com 10% de desconto: ${filmes.map(filme => filme.valor * 0.9)}\n`)
-console.log(`B. Valores maiores que 10,00: ${filmes.filter(filme => filme.valor > 10)}\nC. Média dos valores menores que 10: ${filmes.filter(filme => filme.valor < 10).reduce((acumulador, filme) => acumulador + filme.valor)}`)
+console.log(`B. Valores maiores que 10,00: ${filmes.filter(filme => filme.valor > 10)}\nC. Média dos valores menores que 10: ${filmes.map(filme => filme.valor < 10).reduce((acumulador, filme) => acumulador + filme.valor)}`)
