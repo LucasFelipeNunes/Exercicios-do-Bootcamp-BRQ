@@ -1,2 +1,2 @@
-let comprimento = parseFloat(window.prompt("Digite o comprimento do terreno")), largura = parseFloat(window.prompt("Digite o largura do terreno"))
-window.alert("A área do terreno é " + comprimento * largura)
+let notas = [parseFloat(window.prompt("Digite a primeira nota")), parseFloat(window.prompt("Digite a segunda nota")), parseFloat(window.prompt("Digite a terceira nota"))];
+window.alert("A média final do aluno é " + (notas[0] + notas[1] + notas[2]) / 3)

@@ -1,2 +1,2 @@
-let comprimento = parseFloat(window.prompt("Digite o comprimento do terreno")), largura = parseFloat(window.prompt("Digite o largura do terreno"))
-window.alert("A área do terreno é " + comprimento * largura)
+let media = parseFloat(window.prompt("Digite a media do aluno"))
+window.alert((media < 5) ? "REPROVADO" : "APROVADO")
