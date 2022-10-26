@@ -1,0 +1,20 @@
+body{
+    size: 1140px;
+}
+p{
+    font-size: 24px;
+    font-family: Roboto;
+}
+h1{
+    font-family: Roboto;
+    font-size: 48px;
+    color: #000000;
+}
+h2{
+    font-size: 30px;
+    color: #2D8067;
+    text-align: center;
+}
+img{
+    width: 100%;
+}
