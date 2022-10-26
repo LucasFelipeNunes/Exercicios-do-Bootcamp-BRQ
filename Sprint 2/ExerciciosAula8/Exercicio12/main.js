@@ -1,2 +1,7 @@
-let notas = [parseFloat(window.prompt("Digite a primeira nota")), parseFloat(window.prompt("Digite a segunda nota")), parseFloat(window.prompt("Digite a terceira nota"))];
-window.alert("A média final do aluno é " + (notas[0] + notas[1] + notas[2]) / 3)
+let valorDigitado = 1
+while(valorDigitado != 0){
+    valorDigitado = parseFloat(window.prompt("Digite um valor"))
+    if(valorDigitado != 0){
+        window.alert("valor valido")
+    }
+}
