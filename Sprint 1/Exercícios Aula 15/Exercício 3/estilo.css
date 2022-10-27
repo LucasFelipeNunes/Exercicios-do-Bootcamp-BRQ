@@ -1,0 +1,22 @@
+body{
+    size: 1200px;
+}
+p{
+    text-align: right;
+}
+.p1{
+    font-size: 24px;
+    font-family: Roboto;
+}
+.p2{
+    font-size: 18px;
+    font-family: QuickSand;
+}
+h1{
+    font-family: 'Seaweed Script';
+    font-size: 72px;
+    color: #A93983;
+}
+img{
+    width: 100%;
+}
