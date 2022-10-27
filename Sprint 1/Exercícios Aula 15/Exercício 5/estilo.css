@@ -1,0 +1,14 @@
+body{
+    size: 1200px;
+}
+p{
+    font-family: Roboto;
+    font-size: 18px;
+}
+h2{
+    font-family: Kranky;
+    font-size: 36px;
+}
+img{
+    width: 100%;
+}
