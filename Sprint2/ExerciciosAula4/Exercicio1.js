@@ -1,3 +1,4 @@
+console.log("EXERCÍCIO 1:\n")
 let X = 15, Y = 20
 console.log("a) X = " + X)
 let B = 3

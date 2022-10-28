@@ -1,3 +1,4 @@
+console.log("EXERCÍCIO 3:\n")
 let A = [true, false, true, true, false], B = [true, true, false, true, true], C = [false, false, true, true, true]
 console.log("a)\n\tA\tB\tC\tA e B ou C")
 for(let i = 0;i < 5;i++){
