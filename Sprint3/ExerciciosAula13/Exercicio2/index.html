@@ -7,6 +7,18 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <label>Digite o nome da rua:</label> <br>
+    <input type="text" id="rua" name="rua"> <br><br>
+    <label>Digite o nome do estado:</label> <br>
+    <input type="text" id="estado" name="estado"><br><br>
+    <label>Digite o nome da cidade:</label> <br>
+    <input type="text" id="cidade" name="cidade"><br><br>
+    <button onclick="buscarCEP()">Enviar</button>
+    <h2>Lista de CEPs:</h2>
+    <div id="listaCEPs"></div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    crossorigin="anonymous"></script>
+    <script src="main.js"></script>
 </body>
 </html>
