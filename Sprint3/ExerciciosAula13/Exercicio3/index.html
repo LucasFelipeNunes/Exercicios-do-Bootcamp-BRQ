@@ -5,8 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
 <body>
-    
+    <div style="background-color: gray;" class="row">
+        <div class="col-4">
+            <label for="cep">CEP</label> <br>
+            <input type="text" id="cep" nome="cep" placeholder="Digite um CEP">
+            <button onclick="preencherCampos()">Enviar</button>
+        </div>
+        <div class="col-4">
+            <label for="estado">Estado</label> <br>
+            <input type="text" id="estado" nome="estado">
+        </div>
+        <div class="col-4">
+            <label for="cidade">Cidade</label> <br>
+            <input type="text" id="cidade" nome="cidade">
+        </div>
+        <div class="col-4">
+            <label for="bairro">Bairro</label> <br>
+            <input type="text" id="bairro" nome="bairro">
+        </div>
+        <div class="col-8">
+            <label for="endereco">Endereço</label> <br>
+            <input type="text" id="endereco" nome="endereco">
+        </div>
+    </div>
+    <script src="main.js"></script>
 </body>
 </html>
