@@ -4,7 +4,7 @@ function buscarCEP(){
         fetch('https://viacep.com.br/ws/' + estado + '/' + cidade + '/' + rua + '/json/')
         .then(response => response.json())
         .then(dados => {
-            listaCEPs.innerHTML += dados.cep + "<br><br>"
+            listaCEPs.innerHTML += dados[0].cep + "<br><br>"
         })
     }
 }

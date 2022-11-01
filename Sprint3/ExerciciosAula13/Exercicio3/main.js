@@ -9,3 +9,9 @@ function preencherCampos(){
         endereco.value = dados.logradouro
     })
 }
+document.querySelector('#cep').addEventListener('keydown', (event) => 
+{
+    if(event.key == "Tab"){
+        preencherCampos()
+    }
+})
