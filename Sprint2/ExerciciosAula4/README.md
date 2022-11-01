@@ -47,11 +47,11 @@
   D = (A) OU (B) E ©</p>
   <p><strong>3 - Baseado nos conceitos de tabela verdade, resolva:</strong><br><br></p>
   a)
-  <img href="../../img/Sprint2-Aula4-Exercicio3-ItemA" alt="Tabela verdade do exercício 3 item a)">
+  <img src="../../img/Sprint2-Aula4-Exercicio3-ItemA.jpg" alt="Tabela verdade do exercício 3 item a)">
   b)
-  <img href="../../img/Sprint2-Aula4-Exercicio3-ItemB" alt="Tabela verdade do exercício 3 item b)">
+  <img src="../../img/Sprint2-Aula4-Exercicio3-ItemB.jpg" alt="Tabela verdade do exercício 3 item b)">
 c)
-  <img href="../../img/Sprint2-Aula4-Exercicio3-ItemC" alt="Tabela verdade do exercício 3 item c)">
+  <img src="../../img/Sprint2-Aula4-Exercicio3-ItemC.jpg" alt="Tabela verdade do exercício 3 item c)">
   <p><strong>4 - Para A = V, B = V e C = F, qual o resultado da avaliação das seguintes expressões:</strong><br><br>
   a) (A e B) ou (A ou B)<br>
   b) (A ou B) e (A e C)<br>
