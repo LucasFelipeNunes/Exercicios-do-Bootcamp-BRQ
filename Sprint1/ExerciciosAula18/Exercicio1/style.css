@@ -1,0 +1,14 @@
+footer{
+    background-color: #FF0101;
+    color: white;
+}
+h2{
+    color: #FF0101;
+    font-family: 'Roboto';
+    font-size: 30px;
+    text-align: center;
+    padding: 3%;
+}
+main{
+    size: 1140px;
+}
