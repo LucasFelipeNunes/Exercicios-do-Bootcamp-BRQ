@@ -5,4 +5,4 @@ if(maior < B){
 if(maior < C){
     maior = C
 }
-console.log(maior + " é o maior")
+console.log("Exercício 2: " + maior + " é o maior")

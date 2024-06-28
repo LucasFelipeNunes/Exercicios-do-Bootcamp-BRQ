@@ -1,2 +1,0 @@
-let comprimento = parseFloat(window.prompt("Digite o comprimento do terreno")), largura = parseFloat(window.prompt("Digite o largura do terreno"))
-window.alert("A área do terreno é " + comprimento * largura)

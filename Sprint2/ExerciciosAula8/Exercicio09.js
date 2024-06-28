@@ -1,2 +1,0 @@
-let saldo = parseFloat(window.prompt("Digite o saldo do cliente"))
-window.alert((saldo >= 201 && saldo <= 600) ? "O crédito especial deste cliente será de " + ((saldo <= 400) ? "20% do saldo" : "30% do saldo") : "Não há crédito especial para este cliente.")

@@ -1,2 +1,0 @@
-let idade = parseInt(window.prompt("Digite a idade do nadador"))
-window.alert("Este nadador se encaixa " + ((idade < 5) ? "em nenhuma categoria." : ("na categoria " + ((idade <= 10) ? "infantil" : (idade <= 18) ? "juvenil" : "adulto"))))

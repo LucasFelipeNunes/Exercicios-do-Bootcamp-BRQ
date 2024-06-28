@@ -1,4 +1,4 @@
-var numeroInteiro = parseInt(prompt("Digite um número")), contadorDigitos = 0, auxiliar = 0
+var numeroInteiro = parseInt(prompt("Exercício 10: Digite um número")), contadorDigitos = 0, auxiliar = 0
 if(numeroInteiro > 0){
     while(numeroInteiro > auxiliar){
         contadorDigitos++
@@ -14,4 +14,4 @@ else if(numeroInteiro < 0){
 else{
     contadorDigitos = 1
 }
-console.log("Este número tem " + contadorDigitos + " dígitos")
+console.log("Exercício 10: Este número tem " + contadorDigitos + " dígitos")

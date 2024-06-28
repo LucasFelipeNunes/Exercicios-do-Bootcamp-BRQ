@@ -1,7 +1,7 @@
 let temperaturas = [], menorTemperatura, maiorTemperatura, temperaturaMediaSemana, numeroDiasTemperaturaMenorQueMedia
 for(let i = 0;i < 7;i++)
 {
-    temperaturas[i] = parseFloat(prompt(`Digite a temperatura média do ${i + 1}º dia da semana`))
+    temperaturas[i] = parseFloat(prompt(`Exercício 6: Digite a temperatura média do ${i + 1}º dia da semana`))
     if(i == 0 || temperaturas[i] < menorTemperatura){
         menorTemperatura = temperaturas[i]
     }
@@ -16,4 +16,4 @@ for(let i = 0;i < 7;i++)
         numeroDiasTemperaturaMenorQueMedia++
     }
 }
-console.log(`A menor temperatura da semana foi ${menorTemperatura}\nA maior temperatura da semana foi ${maiorTemperatura}\nA temperatura média da semana foi ${temperaturaMediaSemana}\nO número de dias da semana que a temperatura foi menor que a média semanal foi ${numeroDiasTemperaturaMenorQueMedia}`)
+console.log(`Exercício 6: A menor temperatura da semana foi ${menorTemperatura}\nA maior temperatura da semana foi ${maiorTemperatura}\nA temperatura média da semana foi ${temperaturaMediaSemana}\nO número de dias da semana que a temperatura foi menor que a média semanal foi ${numeroDiasTemperaturaMenorQueMedia}`)

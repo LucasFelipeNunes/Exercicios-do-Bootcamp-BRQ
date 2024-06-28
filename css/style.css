@@ -1,0 +1,39 @@
+.text-justify {
+    text-align: justify;
+}
+
+body{
+    font-family: 'Roboto', sans-serif !important;
+    background-color: #daf4f4 !important;
+}
+
+.primary-bg{
+    background-color: darkblue;
+}
+
+.secondary-bg{
+    background-color: yellow;
+}
+
+.hover-buttons:hover{
+    background-color: #000060;
+}
+.primary-text{
+    color: darkblue !important;
+}
+
+.secondary-text{
+    color: yellow !important;
+}
+
+.hover-buttons:hover{
+    background-color: #000060;
+}
+
+.hover-buttons:hover{
+    background-color: #000060;
+}
+
+a{
+    color: darkblue;
+}

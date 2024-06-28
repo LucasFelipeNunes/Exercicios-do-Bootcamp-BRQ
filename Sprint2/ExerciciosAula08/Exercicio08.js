@@ -1,0 +1,2 @@
+let media2 = parseFloat(window.prompt("Exercicio 8: Digite a média de aproveitamento"))
+window.alert("Exercicio 8: O conceito do aluno é " + ((media2 >= 9) ? "A" : (media2 >= 7.5) ? "B" : (media2 >= 6) ? "C" : "reprovado"))

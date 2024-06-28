@@ -1,2 +1,2 @@
 let custoFabrica = 40000, percentagemDistribuidor = 0.3, percentagemImpostos = 0.45, custoConsumidor = custoFabrica / (1 - .3 - .45) 
-console.log("O custo do carro novo para  o consumidor é" + custoConsumidor)
+console.log("Exercício 8: O custo do carro novo para  o consumidor é" + custoConsumidor)

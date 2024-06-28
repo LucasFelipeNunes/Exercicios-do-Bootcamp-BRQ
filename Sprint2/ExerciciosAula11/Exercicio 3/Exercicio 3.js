@@ -7,4 +7,4 @@ while(segundos >= 60){
     segundos -= 60
     minutos++
 }
-console.log("O evento na fábrica durou " + horas + " hora(s), " + minutos + " minuto(s) e " + segundos + " segundo(s)")
+console.log("Exercício 3: O evento na fábrica durou " + horas + " hora(s), " + minutos + " minuto(s) e " + segundos + " segundo(s)")

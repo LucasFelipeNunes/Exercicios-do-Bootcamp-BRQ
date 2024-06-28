@@ -1,0 +1,2 @@
+let comprimento = parseFloat(window.prompt("Exercício 1: Digite o comprimento do terreno")), largura = parseFloat(window.prompt("Exercício 1: Digite o largura do terreno"))
+window.alert("Exercício 1: A área do terreno é " + comprimento * largura)
